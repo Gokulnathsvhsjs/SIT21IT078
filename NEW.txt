@@ -1,0 +1,208 @@
+/* Original styles remain unchanged */
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+
+  /* Global Styles */
+  .container {
+    max-width: 100%;
+  }
+
+  /* Head Styles */
+  .head {
+    height: auto;
+    line-height: initial;
+  }
+
+  .head i {
+    margin-bottom: 10px;
+  }
+
+  .head img {
+    margin-top: 0;
+  }
+
+  /* Header Styles */
+  header {
+    padding: 10px 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar {
+    margin: 3px 0;
+  }
+
+  header ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  header li {
+    margin: 0;
+  }
+
+  header .head_contact i {
+    top: -15px;
+    left: -40%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+  header.sticky {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  /* Home Styles */
+  .home h1 {
+    font-size: 80px;
+    padding-top: 5%;
+  }
+
+  /* About Styles */
+  .about .right::after {
+    height: 50vh;
+    margin: 30px;
+  }
+
+  /* Wrapper Styles */
+  .wrapper {
+    height: auto;
+  }
+
+  .wrapper .item {
+    margin-top: 10%;
+  }
+
+  /* Wrapper2 Styles */
+  .wrapper2::after {
+    top: -12%;
+  }
+
+  .wrapper2 .box {
+    margin-top: 5%;
+  }
+
+  /* Room Styles */
+  .room.wrapper2::after {
+    display: block;
+  }
+
+  .room h3 {
+    margin-bottom: 10px;
+  }
+
+  /* Timer Styles */
+  .timer {
+    padding-top: 5%;
+  }
+
+  .timer h2 {
+    font-size: 40px;
+  }
+
+  /* Offer Styles */
+  .offer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .offer .right {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .offer .content h4 {
+    font-size: 16px;
+  }
+
+  .offer .rate i {
+    font-size: 10px;
+    margin: 5px 5px 10px 0;
+  }
+
+  /* Area Styles */
+  .area img {
+    margin: 0;
+  }
+
+  .area ul li {
+    margin-bottom: 10px;
+  }
+
+  /* Offer2 Styles */
+  .offer2 .box h5 {
+    font-size: 16px;
+    word-spacing: 5px;
+  }
+
+  .offer2 .box h3 {
+    font-size: 16px;
+  }
+
+  .offer2 .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Customer Styles */
+  .customer .mtop {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .customer img {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Gallary Styles */
+  .gallary .overlay i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+
+  /* Blog Styles */
+  .blog .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog .box {
+    margin-bottom: 20px;
+  }
+
+  .blog .img span {
+    top: -5%;
+    left: -10%;
+  }
+
+  /* Map Styles */
+  .map iframe {
+    height: 300px; /* Adjust height as needed */
+  }
+
+  /* Footer Styles */
+  footer .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  footer .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .subscribe {
+    max-width: 100%;
+  }
+}
